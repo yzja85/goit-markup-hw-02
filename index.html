@@ -5,25 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <!-- header -->
     <header class="header">
-        <nav>
-            <a class="header-logo" href="./index.html">WebStudio</a>
-            <ul>
-                <li class="header-studio"><a href="">Студия</a></li>
-                <li class="header-portfolio"><a href="./portfolio.html">Портфолио</a></li>
-                <li class="header-contakts"><a href="">Контакты</a></li>
-            </ul>
-            <ul>
-                <li class="header-mail"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="header-tel"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <nav class="header-nav">
+            <a class="header-logo link" href="./index.html">Web<span class="studio-logo link">Studio</span> </a>
+            <ul class="header-nav-list list">
+                <li class="header-studio-item"><a class="link" href="">Студия</a></li>
+                <li class="header-portfolio-item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+                <li class="header-contakts-item"><a class="link" href="">Контакты</a></li>
             </ul>
         </nav>
-
+        <ul class="header-list-contats list link">
+            <li ><a class="header-mail-item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li ><a class="header-tel-item link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+    
+    
     </header>
 
     <main>
@@ -34,20 +41,20 @@
         </section>
         <!-- section-2 -->
         <section class="section-2">
-            <ul>
-                <li>
+            <ul class="section-2-list list">
+                <li class="section-2-item-1">
                     <h3 class="section-2-title-1">Внимание к деталям</h3>
                     <p class="section-2-description-1">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
+                <li class="section-2-item-2">
                     <h3 class="section-2-title-2">Пунктуальность</h3>
                     <p class="section-2-description-2">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
+                <li class="section-2-item-3" >
                     <h3 class="section-2-title-3">Планирование</h3>
                     <p class="section-2-description-3">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
+                <li class="section-2-item-4">
                     <h3 class="section-2-title-4">Современные технологии</h3>
                     <p class="section-2-description-4">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
@@ -57,19 +64,19 @@
         <section class="section-3">
 
             <h2 class="section-3-title">Чем мы занимаемся</h2>
-            <ul>
-                <li class="section-3-img1">
+            <ul class="section-3-list list">
+                <li class="section-3-item-img1" >
                     <img src="./images/img-sek3-1.jpg"
                      width="370"
                      height="294"
                      alt="сотрудник работает за планшетом">
                 </li>
-                <li class="section-3-img2"><img src="./images/img-sek3-2.jpg" 
+                <li class="section-3-item-img2"><img src="./images/img-sek3-2.jpg" 
                     width="370" 
                     height="294" 
                     alt="сотрудник разрабатывает дизайн">
                 </li>
-                <li class="section-3-img3"><img src="./images/img-sek3-3.jpg" 
+                <li class="section-3-item-img3"><img src="./images/img-sek3-3.jpg" 
                     width="370" 
                     height="294"
                     alt="сотрудник рассматривает палитру цветов">
@@ -80,17 +87,16 @@
         <!-- section-4 -->
         <section class="section-4">
             <h2 class="section-4-title">Наша команда</h2>
-            <ul>
-                <li>
+            <ul class="section-4-list list">
+                  <li class="section-4-employee-1">
                     <img class="section-4-img1" src="./images/img-sek4-1.jpg" 
                     width="270" 
                     height="260" 
                     alt="фото сотрудника">
-
                     <h3 class="section-4-img1-name" >Игорь Демьяненко</h3>
                     <p class="section-4-img1-profession">Product Designer</p>
-                </li>
-                <li>
+                  </li>
+                <li class="section-4-employee-2">
                     <img class="section-4-img2"  src="./images/img-sek4-2.jpg" 
                     width="270" 
                     height="260" 
@@ -99,7 +105,7 @@
                     <h3 class="section-4-img2-name">Ольга Репина</h3>
                     <p class="section-4-img2-profession">Frontend Developer</p>
                 </li>
-                <li>
+                <li class="section-4-employee-3">
                     <img class="section-4-img3"  src="./images/img-sek4-3.jpg" 
                     width="270" 
                     height="260" 
@@ -108,7 +114,7 @@
                     <h3 class="section-4-img3-name">Николай Тарасов</h3>
                     <p class="section-4-img3-profession">Marketing</p>
                 </li>
-                <li>
+                <li class="section-4-employee-4">
                     <img class="section-4-img4"  src="./images/img-sek4-4.jpg" 
                     width="270" 
                     height="260" 
@@ -120,17 +126,18 @@
             </ul>
         </section>
     </main>
-
+    <!-- footer -->
     <footer class="footer">
-        <a class="footer-logo" href="./index.html">WebStudio</a>
-        <address>
-            <ul>
-                <li class="footer-adress" ><a href="https://goo.gl/maps/XvD9XZvy2aRC84E2A" target="_blank"rel="noopener noreferrer" >г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li class="footer-mail"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="footer-tel"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <a class="footer-logo link" href="./index.html">Web<span class="footer-studio-logo link">Studio</span></a>
+        <address class="footer-address">
+            <ul class="footer-address-list list link">
+                <li><a class="footer-adress-item link" href="https://goo.gl/maps/XvD9XZvy2aRC84E2A" target="_blank"
+                        rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a  class="footer-mail-item link"  href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li ><a class="footer-tel-item link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
-
+    
     </footer>
 </body>
 
