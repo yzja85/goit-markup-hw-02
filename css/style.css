@@ -17,6 +17,7 @@
 .link {
   text-decoration: none;
 }
+
 .link:hover {
   color: var(--accent-color);
 }
@@ -274,8 +275,19 @@
   color: var(--footer-color);
 }
 /* portfolio */
-/* section 1 */
-.section-1-portfolio-button1 {
+/* first */
+.portfolio-button1 {
+  background-color: #2196f3;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+  cursor: pointer;
+}
+.portfolio-button2 {
   background-color: #f5f4fa;
   border-radius: 4px;
   font-family: Roboto;
@@ -286,7 +298,7 @@
   color: var(--first-text-color);
   cursor: pointer;
 }
-.section-1-portfolio-button2 {
+.portfolio-button3 {
   background-color: #f5f4fa;
   border-radius: 4px;
   font-family: Roboto;
@@ -297,7 +309,7 @@
   color: var(--first-text-color);
   cursor: pointer;
 }
-.section-1-portfolio-button3 {
+.portfolio-button4 {
   background-color: #f5f4fa;
   border-radius: 4px;
   font-family: Roboto;
@@ -308,7 +320,7 @@
   color: var(--first-text-color);
   cursor: pointer;
 }
-.section-1-portfolio-button4 {
+.portfolio-button5 {
   background-color: #f5f4fa;
   border-radius: 4px;
   font-family: Roboto;
@@ -319,138 +331,127 @@
   color: var(--first-text-color);
   cursor: pointer;
 }
-.section-1-portfolio-button5 {
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  color: var(--first-text-color);
-  cursor: pointer;
-}
-/* section 2 */
-.section-2-portfolio-item-name1 {
+/* second*/
+.sec-portfolio-item-name1 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
 }
-.section-2-portfolio-item-img1-description {
+.sec-portfolio-item-img1-description {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-.section-2-portfolio-item-name2 {
+.sec-portfolio-item-name2 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
 }
-.section-2-portfolio-item-img2-description {
+.sec-portfolio-item-img2-description {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-.section-2-portfolio-item-name3 {
+.sec-portfolio-item-name3 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
 }
-.section-2-portfolio-item-img3-description {
+.sec-portfolio-item-img3-description {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-.section-2-portfolio-item-name4 {
+.sec-portfolio-item-name4 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
 }
-.section-2-portfolio-item-img4-description {
+.sec-portfolio-item-img4-description {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-.section-2-portfolio-item-name5 {
+.sec-portfolio-item-name5 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
 }
-.section-2-portfolio-item-img5-description {
+.sec-portfolio-item-img5-description {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-.section-2-portfolio-item-name6 {
+.sec-portfolio-item-name6 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
 }
-.section-2-portfolio-item-img6-description {
+.sec-portfolio-item-img6-description {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-.section-2-portfolio-item-name7 {
+.sec-portfolio-item-name7 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
 }
-.section-2-portfolio-item-img7-description {
+.sec-portfolio-item-img7-description {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-.section-2-portfolio-item-name8 {
+.sec-portfolio-item-name8 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
 }
-.section-2-portfolio-item-img8-description {
+.sec-portfolio-item-img8-description {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-.section-2-portfolio-item-name9 {
+.sec-portfolio-item-name9 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
 }
-.section-2-portfolio-item-img9-description {
+.sec-portfolio-item-img9-description {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
