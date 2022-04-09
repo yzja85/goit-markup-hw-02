@@ -86,7 +86,7 @@ body {
   color: var(--first-text-color);
 }
 .header-mail-item {
-  font-family: Roboto;
+  font-family:'roboto',sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
@@ -95,7 +95,7 @@ body {
   color: var(--second-text-color);
 }
 .header-tel-item {
-  font-family: Roboto;
+  font-family: 'roboto',sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
