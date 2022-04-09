@@ -7,7 +7,14 @@
   --accent-color: #2196f3;
   --footer-color: #ffffff;
 }
-.body {
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+ul, ol{
+  margin: 0;
+  padding-left: 0;
+}
+body {
  font-family: 'roboto',sans-serif;
 }
 .list {
@@ -121,10 +128,10 @@
   color: var(--btn-color);
 }
 .section-1-button:hover {
-  background-color: #073d69;
+  background-color: brown;
 }
 .section-1-button:focus{
-background-color: #073d69;
+background-color: brown;
 }
 /* section 2 */
 .section-2-list {
